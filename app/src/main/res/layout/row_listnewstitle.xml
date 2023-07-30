@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listnewstitleRowModel" type="com.madhursapplication.app.modules.homepage.data.model.ListnewstitleRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRownewstitle"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnnewstitle"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_12pxv"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_weight="0.83" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtNewsTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="@dimen/_6pxh"
+                android:singleLine="true"
+                android:text="@{listnewstitleRowModel.txtNewsTitle}"
+                style="@style/txtDMSansbold18" tools:text="@string/lbl_arijit_singh"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtNewsDescriptio"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="@dimen/_5pxh"
+                android:singleLine="true"
+                android:text="@{listnewstitleRowModel.txtNewsDescriptio}"
+                style="@style/txtDMSansregular14" tools:text="@string/msg_songs_kesariya"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageEllipse740"
+            android:layout_height="@dimen/_61pxh"
+            android:layout_width="@dimen/_61pxh"
+            android:scaleType="centerCrop" circular="@{true}"
+            imageRes="@{@drawable/img_ellipse740}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse740"/>
+    </LinearLayout>
+</layout>

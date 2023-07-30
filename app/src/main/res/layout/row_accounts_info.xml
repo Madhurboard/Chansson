@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="accountsInfoRowModel" type="com.madhursapplication.app.modules.accountsinfo.data.model.AccountsInfoRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowspotify"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylewhite_A700_63cornerRadius">
+        <ImageView android:id="@+id/imageImageremovebg"
+            android:layout_height="@dimen/_51pxh"
+            android:layout_marginBottom="@dimen/_26pxv"
+            android:layout_marginStart="@dimen/_12pxh"
+            android:layout_marginTop="@dimen/_34pxv"
+            android:layout_width="@dimen/_59pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_imageremovebg_51x59}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_imageremovebg_51x59"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnspotify"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_33pxv"
+            android:layout_marginStart="@dimen/_13pxh"
+            android:layout_marginTop="@dimen/_39pxv"
+            android:layout_weight="0.79" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtSpotify"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                android:text="@{accountsInfoRowModel.txtSpotify}"
+                style="@style/txtSFProDisplaysemibold17_1" tools:text="@string/lbl_spotify"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtMikePanther"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_9pxh"
+                android:singleLine="true"
+                android:text="@{accountsInfoRowModel.txtMikePanther}"
+                style="@style/txtCatamaranregular14" tools:text="@string/lbl_mike_panther"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageGroupTwentySix"
+            android:layout_height="@dimen/_20pxh"
+            android:layout_marginBottom="@dimen/_70pxv"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:layout_marginStart="@dimen/_13pxh"
+            android:layout_marginTop="@dimen/_21pxv"
+            android:layout_width="@dimen/_4pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_group26"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_group26"/>
+    </LinearLayout>
+</layout>

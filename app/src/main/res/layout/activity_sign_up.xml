@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="signUpVM" type="com.madhursapplication.app.modules.signup.data.viewmodel.SignUpVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnpngwingone"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_123pxv"
+        android:layout_marginEnd="@dimen/_28pxh"
+        android:layout_marginStart="@dimen/_43pxh"
+        android:layout_marginTop="@dimen/_65pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_50">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true" android:gravity="start"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearSignup"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <ImageView android:gravity="start"
+                    android:id="@+id/imagePngwingOne"
+                    android:layout_height="@dimen/_401pxh"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginStart="@dimen/_7pxh"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_pngwing1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_pngwing1"/>
+                <TextView android:gravity="center_horizontal"
+                    android:id="@+id/txtPageTitle"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_9pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="@dimen/_32pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{signUpVM.signUpModel.txtPageTitle}"
+                    style="@style/txtDMSansbold34" tools:text="@string/msg_stay_on_top_of"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtPageTitleOne"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_20pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="@dimen/_26pxv"
+                    android:layout_width="wrap_content"
+                    android:lineSpacingExtra="@dimen/_7pxh"
+                    android:singleLine="true"
+                    android:text="@{signUpVM.signUpModel.txtPageTitleOne}"
+                    style="@style/txtSFProTextsemibold17_1" tools:text="@string/msg_placeholder_tex"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnCreateAccount"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_74pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_18pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_18pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_create_account"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_1" tools:text="@string/lbl_create_account"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtPageTitleTwo"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_20pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="@dimen/_17pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{signUpVM.signUpModel.txtPageTitleTwo}"
+                    style="@style/txtSFProTextsemibold17_2" tools:text="@string/lbl_login"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

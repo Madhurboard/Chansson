@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="splashScreenVM" type="com.madhursapplication.app.modules.splashscreen.data.viewmodel.SplashScreenVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackdalle202307"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_281pxv"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_gravity="start" android:layout_height="0dp"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <FrameLayout android:id="@+id/frameSplashscreen"
+                android:layout_height="match_parent" android:layout_width="match_parent">
+                <ImageView android:id="@+id/imageDALLE202307"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="@dimen/_370pxh"
+                    android:layout_marginEnd="@dimen/_45pxh"
+                    android:layout_marginStart="@dimen/_45pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="@dimen/_324pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_dalle202307}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_dalle202307"/>
+                <ImageView android:id="@+id/imageImageEight"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_380pxv"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_image8}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image8"/>
+            </FrameLayout>
+        </ScrollView>
+    </FrameLayout>
+</layout>
