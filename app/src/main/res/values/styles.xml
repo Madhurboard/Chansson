@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtSFProDisplaysemibold32">
+        <item name="android:textSize">@dimen/_32pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sf_pro_display</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtDMSansbold22">
+        <item name="android:textSize">@dimen/_22pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtDMSansregular17">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSFProDisplaymedium18">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/red_A200</item>
+        <item name="android:fontFamily">@font/sf_pro_display</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtDMSansregular14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/gray_801</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtDMSansregular13">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/black_900_90</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtRobotoromanmedium16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtSFCompactDisplaysemibold22">
+        <item name="android:textSize">@dimen/_22pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sf_compact_display</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="btnSolidRounded_1">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_green_600_radius_20</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_radius_20</item>
+    </style>
+    <style name="groupStylewhite_A700_63cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_63_radius_20</item>
+    </style>
+    <style name="txtCatamaranmedium12_3">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/green_605</item>
+        <item name="android:fontFamily">@font/catamaran</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtCatamaranmedium12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/gray_501</item>
+        <item name="android:fontFamily">@font/catamaran</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylewhite_A700">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="txtDMSansbold20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtCatamaranmedium12_2">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/black_900_90</item>
+        <item name="android:fontFamily">@font/catamaran</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylecornerRadius_3">
+        <item name="android:background">@drawable/rectangle_gradient_s_deep_purple_a100_e_indigo_a200_radius_20</item>
+    </style>
+    <style name="groupStylecornerRadius_2">
+        <item name="android:background">@drawable/rectangle_gradient_s_yellow_500_e_gray_500_c1_radius_20</item>
+    </style>
+    <style name="btnSolidRounded">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/teal_401</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a701_radius_15</item>
+    </style>
+    <style name="groupStylecornerRadius_5">
+        <item name="android:background">@drawable/rectangle_radius_tl_30_tr_30</item>
+    </style>
+    <style name="groupStylecornerRadius_4">
+        <item name="android:background">@drawable/rectangle_gradient_s_gray_400_e_gray_500_radius_20</item>
+    </style>
+    <style name="txtSFProTextmedium16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylecornerRadius_1">
+        <item name="android:background">@drawable/rectangle_gradient_s_teal_400_e_green_601_radius_20</item>
+    </style>
+    <style name="txtDMSansbold18">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/gray_800</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtRobotoregular14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700_90</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSFProTextregular17">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/gray_600</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylegray_51">
+        <item name="android:background">@drawable/rectangle_bg_gray_51</item>
+    </style>
+    <style name="groupStylegray_50">
+        <item name="android:background">@drawable/rectangle_bg_gray_50</item>
+    </style>
+    <style name="groupStylecornerRadius_7">
+        <item name="android:background">@drawable/rectangle_radius_16</item>
+    </style>
+    <style name="groupStylecornerRadius_6">
+        <item name="android:background">@drawable/rectangle_radius_28</item>
+    </style>
+    <style name="groupStylecornerRadius_9">
+        <item name="android:background">@drawable/rectangle_gradient_s_deep_purple_a100_e_indigo_a200_radius_20</item>
+    </style>
+    <style name="groupStylecornerRadius_8">
+        <item name="android:background">@drawable/rectangle_border_gray_600_radius_20</item>
+    </style>
+    <style name="groupStylecornerRadius_12">
+        <item name="android:background">@drawable/rectangle_gradient_s_green_500_e_purple_a200_radius_20</item>
+    </style>
+    <style name="groupStylecornerRadius_11">
+        <item name="android:background">@drawable/rectangle_gradient_s_bluegray_800_e_light_green_400_radius_20</item>
+    </style>
+    <style name="groupStylecornerRadius_10">
+        <item name="android:background">@drawable/rectangle_gradient_s_light_green_a100_e_red_401_radius_20</item>
+    </style>
+    <style name="groupStylecornerRadius_16">
+        <item name="android:background">@drawable/rectangle_gradient_s_red_a700_e_gray_300_radius_20</item>
+    </style>
+    <style name="txtSFCompactDisplaysemibold22_1">
+        <item name="android:textSize">@dimen/_22pxh</item>
+        <item name="android:textColor">@color/gray_804</item>
+        <item name="android:fontFamily">@font/sf_compact_display</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylecornerRadius_15">
+        <item name="android:background">@drawable/rectangle_gradient_s_red_a700_e_gray_300_radius_21</item>
+    </style>
+    <style name="txtSFProTextsemibold17_3">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylered_400cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_red_400_radius_25</item>
+    </style>
+    <style name="groupStylecornerRadius_14">
+        <item name="android:background">@drawable/rectangle_gradient_s_light_green_800_e_amber_400_radius_20</item>
+    </style>
+    <style name="groupStylecornerRadius_13">
+        <item name="android:background">@drawable/rectangle_gradient_s_red_a100_e_indigo_600_radius_20</item>
+    </style>
+    <style name="txtSFProTextsemibold17_1">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/gray_800</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtSFProTextsemibold17_2">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/green_600</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="etRoundedOutline">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/gray_600</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_border_gray_600_radius_20</item>
+    </style>
+    <style name="txtSFProDisplaysemibold17">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sf_pro_display</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtDMSansmedium22">
+        <item name="android:textSize">@dimen/_22pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtDMSansregular14_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/gray_800</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtDMSansbold34">
+        <item name="android:textSize">@dimen/_34pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtCatamaranmedium12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/green_601</item>
+        <item name="android:fontFamily">@font/catamaran</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtSFProDisplaysemibold17_1">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/sf_pro_display</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtCatamaranregular14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:fontFamily">@font/catamaran</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylegray_100">
+        <item name="android:background">@drawable/rectangle_bg_gray_100</item>
+    </style>
+    <style name="groupStylewhite_A700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_4</item>
+    </style>
+    <style name="txtSFProTextsemibold13">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/white_A700_99</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtSFProTextsemibold18">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtSFProTextsemibold17">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sf_pro_text</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtDMSansbold30">
+        <item name="android:textSize">@dimen/_30pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+</resources>

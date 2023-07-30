@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="searchRowModel" type="com.madhursapplication.app.modules.search.data.model.SearchRowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameCardStock"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/_180pxh" style="@style/groupStylecornerRadius_11">
+        <LinearLayout android:id="@+id/linearColumnstocklabelTwo"
+            android:layout_gravity="top|start"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20pxh"
+            android:layout_marginVertical="@dimen/_20pxv"
+            android:layout_width="wrap_content" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtStockLabelTwo"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:singleLine="true"
+                android:text="@{searchRowModel.txtStockLabelTwo}"
+                style="@style/txtSFProTextsemibold18" tools:text="@string/lbl_calm"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtSongsCounterTwo"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_5pxh"
+                android:singleLine="true"
+                android:text="@{searchRowModel.txtSongsCounterTwo}"
+                style="@style/txtSFProTextsemibold13" tools:text="@string/lbl_38_songs"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearCardStock03"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylecornerRadius_12">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtStockLabelOne"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginTop="@dimen/_20pxv"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:singleLine="true"
+                android:text="@{searchRowModel.txtStockLabelOne}"
+                style="@style/txtSFProTextsemibold18" tools:text="@string/lbl_fear"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtSongsCounterOne"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_46pxv"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="@dimen/_5pxh"
+                android:singleLine="true"
+                android:text="@{searchRowModel.txtSongsCounterOne}"
+                style="@style/txtSFProTextsemibold13" tools:text="@string/lbl_23_songs"/>
+        </LinearLayout>
+    </FrameLayout>
+</layout>
